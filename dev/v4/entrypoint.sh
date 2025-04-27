@@ -81,6 +81,7 @@ cat <<EOF | tee /etc/sing-box/config.json
                 "detour": "direct-out"
             }
         ],
+        "strategy": "prefer_ipv6",
         "final": "remote",
         "reverse_mapping": true,
         "disable_cache": false,
